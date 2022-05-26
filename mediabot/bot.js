@@ -46,7 +46,7 @@ bot.command('newyork', ctx => {
 //dubai gif
 bot.command('dubai', ctx => {
     bot.telegram.sendChatAction(ctx.chat.id, "upload_video")
-    bot.telegram.sendAnimation(ctx.chat.id, "https://media.giphy.com/media/132Ob31MoSjuOA/giphy.gif")
+    bot.telegram.sendAnimation(ctx.chat.id, "https://media.giphy.com/media/4WxudYTEiSVJ6/giphy.gif")
 })
 
 //cities command
