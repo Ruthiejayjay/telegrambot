@@ -22,22 +22,22 @@ const bot = new Telegraf('5306574811:AAHZeCkB0IrbAVSqQBLeVhFRHbMo-f9a8po');
 //     );
 // })
 
-bot.command('start', ctx => {
+// bot.command('start', ctx => {
 
-//ctx.reply(text, [extra])
- ctx.reply("Hello!!"); // ctx method shortcuts doesn't require chat id
-//bot.telegram.sendMessage(chatId,text, [extra])
- bot.telegram.sendMessage(ctx.chat.id, "Hello World"); //requires chat id
-})
+// //ctx.reply(text, [extra])
+//  ctx.reply("Hello!!"); // ctx method shortcuts doesn't require chat id
+// //bot.telegram.sendMessage(chatId,text, [extra])
+//  bot.telegram.sendMessage(ctx.chat.id, "Hello World"); //requires chat id
+// })
 
 // bot.start((ctx) => {
 //     ctx.reply(ctx.state.apple)
 // })
 
 
-//bot.start((ctx) => {
- //    ctx.reply('Hello!! ' + ctx.from.first_name + ', My Name is NewDevzBot. How May I be of help today?');
- //})
+bot.start((ctx) => {
+   ctx.reply('Hello!! ' + ctx.from.first_name + ', My Name is NewDevzBot. How May I be of help today?');
+ })
 
 // bot.start((ctx) => {
 //     ctx.reply(ctx.from.first_name + " have entered the start command and it is a " + 
